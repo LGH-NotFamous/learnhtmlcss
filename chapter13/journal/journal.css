@@ -23,3 +23,50 @@ blockquote {
   font-style:      italic;
 }
 
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: thin solid black;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: thin dotted gray;
+  padding: 5px;
+}
+
+th {
+  background-color: #cc6600;
+}
+
+table table th {
+  background-color: white;
+}
+
+caption {
+  font-style: italic;
+  padding-top: 8px;
+}
+
+td.alignCenter {
+  text-align: center;
+}
+
+td.alignRight {
+  text-align: right;
+}
+
+.cellcolor {
+  background-color: #fcba7a;
+}
+
+/*tr:nth-child(odd) {
+  background-color: #fcba7a;
+}*/
+
+li {
+  list-style-image: url(images/backpack.gif);
+  padding-top: 5px;
+  margin-left: 20px;
+}
