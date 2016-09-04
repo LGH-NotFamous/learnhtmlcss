@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test The Javascript</title>
+    <script>
+        window.onload = init;
+        function init() {
+            var submitButton = document.getElementById("submitButton");
+            submitButton.onclick = vaildBid;
+        }
+
+        function validBid() {
+            if(document.getElementById("bid").value > 10){
+                alert(">10");
+            } else {
+                alert("<=10");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <input type="number" id="bid" value="0"> <br>
+        <input type="button" id="submitButton" value="Bid!">
+    </form>
+    <p>It dosen't work....</p>
+</body>
+</html>
